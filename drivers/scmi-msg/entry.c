@@ -93,7 +93,7 @@ void scmi_process_message(struct scmi_msg *msg)
 		return;
 	}
 
-	ERROR("Agent %u Protocol 0x%x Message 0x%x: not supported\n",
+	NOTICE("Agent %u Protocol 0x%x Message 0x%x: not supported\n",
 	      msg->agent_id, msg->protocol_id, msg->message_id);
 
 	scmi_status_response(msg, SCMI_NOT_SUPPORTED);
