@@ -4,7 +4,8 @@
  * Copyright (C) 2020-2021 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include "AM62Lx-SKEVM-LP4-50-800.dtsi"
+//#include "AM62Lx-SKEVM-LP4-50-800.dtsi"
+#include "k3-am62Lx-ddr-config.dtsi"
 / {
         #address-cells = <2>;
         #size-cells = <2>;
