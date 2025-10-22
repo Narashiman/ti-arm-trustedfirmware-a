@@ -609,7 +609,7 @@ set_psc_def_pll:
 		return -EFAULT;
 	}
 	else
-		INFO("LPDDR4 start completed !! \n");
+		INFO("Narsi LPDDR4 start completed !! \n");
 
 	val = (uint32_t)*((uint32_t *)(DDRSS_CTL_CFG + DDRSS_PI_REGISTER_BLOCK__OFFS + DDRSS_PI_83__SFR_OFFS));
 	NOTICE("lpddr4: post start - PI training status=0x%x \n", val);
